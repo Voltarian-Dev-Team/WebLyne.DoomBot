@@ -51,8 +51,8 @@ async def info(interaction: discord.Interaction):
     # Set a footer
     embed.set_footer(text="WebLyne DOOM® - Bringing retro gaming to your browser")
 
-    # Set the thumbnail url
-    embed.set_thumbnail(url="https://raw.githubusercontent.com/Voltarian-Dev-Team/WebLyne.DoomBot/refs/heads/main/assets/images/weblyne_banner.jpg")
+    # Set the image url
+    embed.set_image(url="https://raw.githubusercontent.com/Voltarian-Dev-Team/WebLyne.DoomBot/refs/heads/main/assets/images/weblyne_banner.jpg")
 
     # Create buttons (optional, in case you still want them)
     button1 = Button(label="GitHub Pages", url="https://voltarian-dev-team.github.io/WebLyne.Doom/")
